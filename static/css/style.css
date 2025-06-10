@@ -1,0 +1,127 @@
+body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 320px;
+    background: #fff;
+    border-right: 1px solid #e0e0e0;
+    padding: 32px 24px;
+    box-sizing: border-box;
+}
+.sidebar h2 {
+    margin-top: 0;
+    color: #2d3a4b;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+}
+select, input[type="number"], input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 6px 8px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #1565c0;
+}
+.main-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-section {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.image-section div {
+    text-align: center;
+}
+.image-section img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.result-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+.left-result,
+.right-result {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.left-result img,
+.right-result img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+#face-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+.result-container h4 {
+    margin: 0 0 10px 0;
+    color: #444;
+    text-align: center;
+}
+
+.original-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.original-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.original-image-container img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.original-image-container h4 {
+    margin: 0;
+    color: #555;
+}

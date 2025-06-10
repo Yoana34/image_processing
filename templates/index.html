@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>数字图像处理平台</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="container">
+    <aside class="sidebar">
+        <h2>功能选择</h2>
+        <form id="operation-form">
+            <div class="form-group">
+                <label>一级分类</label>
+                <select id="main-category" name="main-category">
+                    <option value="arithmetic">图像运算、变换</option>
+                    <option value="enhance">图像增强</option>
+                    <option value="segment">图像分割</option>
+                    <option value="smooth">图像平滑</option>
+                    <option value="sharpen">图像锐化</option>
+                    <option value="morphology">数学形态学</option>
+                    <option value="restore">图像恢复</option>
+                    <option value="face">人脸识别</option>
+                    <option value="defogging">图像去雾</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>二级功能</label>
+                <select id="sub-category" name="sub-category"></select>
+            </div>
+            <div id="params-area"></div>
+            <div id="upload-area"></div>
+            <button type="submit" id="submit-btn">处理图像</button>
+        </form>
+    </aside>
+    <main class="main-content">
+        <div class="image-section">
+            <div class="original-images">
+                <h3>原图</h3>
+                <div class="original-image-container">
+                    <div>
+                        
+                        <img id="original-img1" src="" alt="原图1" />
+                    </div>
+                    <div>
+                        
+                        <img id="original-img2" src="" alt="原图2" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>处理后图像</h3>
+                <img id="result-img" src="" alt="处理后图像" />
+            </div>
+        </div>
+    </main>
+</div>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
