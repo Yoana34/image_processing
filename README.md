@@ -24,7 +24,7 @@
 git clone https://github.com/Yoana34/image_processing.git
 ```
 
-2. 安装依赖包
+2.安装依赖包
 * Python 
 * PyTorch >= 1.2.0
 * torchvision
@@ -87,5 +87,5 @@ digital_process/
 2. 支持的图片格式：PNG、JPG、JPEG、BMP
 3. 处理大图片时可能需要较长时间，请耐心等待
 
-##项目引用
+## 项目引用
 https://github.com/bubbliiiing/facenet-retinaface-pytorch，https://github.com/BookerDeWitt/MSBDN-DFF
