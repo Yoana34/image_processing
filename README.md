@@ -43,7 +43,7 @@ git clone https://github.com/Yoana34/image_processing.git
 3.安装模型
 将训练的模型[预训练模型](https://drive.google.com/open?id=1da13IOlJ3FQfH6Duj_u1exmZzgXPaYXe)下载到defogging/models路径下。
 
-4. 运行项目
+4.运行项目
 ```bash
 python app.py
 ```
@@ -88,4 +88,5 @@ digital_process/
 3. 处理大图片时可能需要较长时间，请耐心等待
 
 ## 项目引用
-https://github.com/bubbliiiing/facenet-retinaface-pytorch，https://github.com/BookerDeWitt/MSBDN-DFF
+https://github.com/bubbliiiing/facenet-retinaface-pytorch
+https://github.com/BookerDeWitt/MSBDN-DFF
