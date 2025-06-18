@@ -41,7 +41,7 @@ git clone https://github.com/Yoana34/image_processing.git
 （需要配备pytorch+cuda）
 
 3.安装模型
-将训练的模型[预训练模型](https://drive.google.com/open?id=1da13IOlJ3FQfH6Duj_u1exmZzgXPaYXe)下载到defogging/models路径下。
+将要用到的模型[预训练模型](https://drive.google.com/open?id=1da13IOlJ3FQfH6Duj_u1exmZzgXPaYXe)下载到defogging/models路径下。
 
 4.运行项目
 ```bash
@@ -62,22 +62,15 @@ python app.py
 digital_process/
 ├── app.py                    # Flask应用主文件，包含所有Web路由和API接口
 ├── processing.py             # 图像处理基础功能实现
-│
 ├── face_recognition.py       # 人脸识别模块
-│
 ├── defogging_process.py      # 图像去雾模块
-│
 ├── static/                   # 静态资源文件目录
 │   ├── css/                 # 样式文件
 │   └── js/                  # JavaScript文件
-│
 ├── templates/               # HTML模板目录
 │   └── index.html          # 主页面模板
-│
 ├── uploads/                # 图片存储
-│
 ├── face_detection/         # 人脸检测相关内容
-│
 └── defogging/             # 图像去雾相关内容
 
 ```
