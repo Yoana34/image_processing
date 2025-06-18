@@ -11,11 +11,16 @@
 - 图像锐化
 - 数学形态学
 - 图像恢复
+
 ![image1](https://github.com/Yoana34/image_processing/blob/main/images/0436d8aaf492ed7ba2e902cf6c81d07.png)
 ### 场景功能：车管所
 - 人脸识别：通过输入图像，输出已存储人脸的名字及照片。
+
+![image2](https://github.com/Yoana34/image_processing/blob/main/images/296cc6ddcdd0b2339faa01f69c546e2a_.png)
+![image3](https://github.com/Yoana34/image_processing/blob/main/images/c478e6c7683c273d80127dd2cbc55d1f_.png)
 - 图像去雾：能够对雾天等状况下有雾监控照片进行去雾
 
+![image4](https://github.com/Yoana34/image_processing/blob/main/images/72d9e30edc1f2089669839a0eb35f41.png)
 ## 环境配置
 
 ### 安装步骤
