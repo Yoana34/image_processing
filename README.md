@@ -30,8 +30,8 @@ git clone https://github.com/Yoana34/image_processing.git
 ```
 
 2.安装依赖包
-* Python 
-* PyTorch >= 1.2.0
+* Python (python版本目前使用的是3.8，过高可能无法正常运行)
+* PyTorch >= 1.2.0 (我们使用的是2.0.0)
 * torchvision
 * numpy
 * skimage
